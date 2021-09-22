@@ -6,7 +6,7 @@ const ProductList = () => {
     const {filtered_products: products} = useFilterContext()
     return (
         <GridView products={products}>
-            Products List aka Grid View
+            
 
         </GridView>
     )

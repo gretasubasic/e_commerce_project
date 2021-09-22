@@ -24,7 +24,7 @@ const Product = ({id, image, name, price}) => {
 }
 
 const Wrapper = styled.article`
-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 letter-spacing: 0.1rem;
 
 .container {

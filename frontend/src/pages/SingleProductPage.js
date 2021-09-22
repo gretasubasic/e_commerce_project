@@ -1,4 +1,4 @@
-import React, { useEffect  } from 'react'
+import React, { useEffect } from 'react'
 import { useParams, useHistory } from "react-router-dom";
 import { useProductsContext } from '../context/products-context'
 import { single_product_url as url } from '../data'

@@ -5,7 +5,7 @@ import {Filters, Sort, ProductList } from "./index"
 
 const ProductsPage = () => {
     return (
-       <main className="">
+       <main>
            
             <PageHero title="products"/>
             <Wrapper className="page">

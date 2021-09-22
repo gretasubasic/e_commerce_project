@@ -3,8 +3,9 @@ import { useProductsContext } from '../context/products-context'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import Loading from './Loading'
-import Error from './Error'
+import ErrorPage from './ErrorPage'
 import Product from "./Product"
+
 
 const FeaturedProducts = () => {
     const { products_loading: loading, products_error: error, featured_products: featured } = useProductsContext()
@@ -12,7 +13,7 @@ const FeaturedProducts = () => {
        return <Loading />
    }
    if (error) {
-      return  <Error />
+      return  <ErrorPage />
    }
     return (
         <Wrapper className="section">
@@ -62,7 +63,7 @@ h2 {
     text-align: center;
   }
 
-  @media (min-width: 450px) {
+  @media (min-width: 330px) {
     .featured {
       grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
     }

@@ -35,6 +35,25 @@ padding-top: 4rem;
 display: grid;
 place-items: center;
 
+.button {
+    color: white;
+    width: 150px;
+    height: 50px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    &:hover {
+        background: transparent;
+        border: 1px solid black;
+        color: black;
+    }
+  }
+
 
 .img-container {
     display: none;

@@ -141,9 +141,6 @@ a {
       margin-right: -300px
       
       
-      
-      
-      
 }
 
 button {
@@ -154,6 +151,11 @@ button {
 
 
 @media (max-width: 676px) {
+    img {
+
+    }
+
+
     ul {
         display: none;
     }
@@ -174,19 +176,17 @@ button {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 1rem 1.5rem;
+        padding: 1rem 1rem;
     }
 
-    svg {
-        margin-left: 1rem;
-        font-size: 2rem;
-       
+    img {
+        height: 30px;
+        margin-left: 20px;
+        margin-top: 6px;
+        
+    }
 
-    
-    
-
-    
-}
+ 
 }
 `
 
