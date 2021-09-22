@@ -14,7 +14,7 @@ const CartButtons = () => {
     return (
         <Wrapper className="cart-btn-wrapper">
          
-        <Link to="/cart" className="cart-btn">
+        <Link to="/cart" className="cart-btn" onClick={closeSidebar}>
         <span className="cart-container">
             Cart 
            <FaShoppingCart/>
@@ -26,9 +26,6 @@ const CartButtons = () => {
           onClick={() => logout({returnTo: window.location.origin})}>Logout <FaUserMinus/></button> : 
           <button type="button" className="auth-btn" onClick={loginWithRedirect}>Login <FaUserPlus/></button>}
           
-       
-       
-
         </Wrapper>
     )
 }

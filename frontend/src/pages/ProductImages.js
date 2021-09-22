@@ -55,6 +55,27 @@ img {
 .active {
     border: 2px solid white;
 }
+
+@media (max-width: 576px) {
+    .main {
+      height: 300px;
+    }
+    .gallery {
+      img {
+        height: 40px;
+      }
+    }
+  }
+  @media (min-width: 992px) {
+    .main {
+      height: 500px;
+    }
+    .gallery {
+      img {
+        height: 75px;
+      }
+    }
+  }
 `
 
 export default ProductImages
